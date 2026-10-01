@@ -72,6 +72,13 @@ max-width: 1200px; /* cap max width */
 /* T04-3 end*/
 }
 
+.responsive-svg-container svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
