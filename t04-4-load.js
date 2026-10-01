@@ -1,17 +1,17 @@
 //T04-4
 // Load the tvBrandCount.csv file from /data
-d3.csv("data/tvBrandCount.csv", d => {
-    console.log(d); // inspect raw rows as they stream in
-});
+// d3.csv("data/tvBrandCount.csv", d => {
+//     console.log(d); // inspect raw rows as they stream in
+// });
 
-d3.csv("data/tvBrandCount.csv", d => {
-    return {
-        brand: d.brand,
-        count: +d.count // '+' converts string to number
-};
-}).then(data => {
-    console.log(data); // array of typed objects
-});
+// d3.csv("data/tvBrandCount.csv", d => {
+//     return {
+//         brand: d.brand,
+//         count: +d.count // '+' converts string to number
+// };
+// }).then(data => {
+//     console.log(data); // array of typed objects
+// });
 
 //T04-5: remove stub from T04-4
 // /* Stub: will draw the chart in T04-5 */
