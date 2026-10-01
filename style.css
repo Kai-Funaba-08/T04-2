@@ -1,0 +1,114 @@
+:root {
+  --cream: #F8E8A5;
+  --brown: #6B5637;
+  --amber: #E8A33D;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fffdf5;
+}
+
+header {
+  background: var(--brown);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+/*hover*/
+.nav-btn:hover {
+  background: var(--amber);
+  color: var(--brown);
+}
+
+/*active page*/
+.nav-btn.active {
+  background: var(--cream);
+  color: var(--brown);
+  font-weight: bold;
+}
+
+.graph-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border: 1px solid var(--brown);
+  border-radius: 4px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+h1 {
+  color: var(--brown);
+  border-bottom: 3px solid var(--amber);
+  padding-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid var(--brown);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: var(--brown);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: var(--cream);
+}
+
+footer {
+  background: var(--brown);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+}

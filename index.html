@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img id="logo" src="pics/logo.png" alt="TV" title="Go to Home">
+
+  <nav>
+    <button class="nav-btn" data-page="home">Home</button>
+    <button class="nav-btn" data-page="televisions">Televisions</button>
+    <button class="nav-btn" data-page="about">About Us</button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="page">
+    <h1>Appliance Energy Use in Australia</h1>
+    <p><em>You are on: Home</em></p>
+    <h3>Quick facts</h3>
+    <ul>
+      <li>Energy labels (star ratings) help compare appliance efficiency at a glance.</li>
+      <li>Standby power can add unexpected costs—turn devices fully off when not in use.</li>
+      <li>Choosing higher-efficiency models usually pays back through lower electricity bills.</li>
+    </ul>
+  </section>
+
+  <section id="televisions" class="page">
+    <h1>Televisions</h1>
+    <p><em>You are on: Televisions</em></p>
+
+    <h2>Questions</h2>
+
+    <div class="question">
+      <h3>1. What type of TV screen technologies are currently available in Australia and which are the most frequent?</h3>
+      <p>Most TVs in Australia are LCD LED, while OLED is less common.</p>
+      <img src="pics/1.1.png" alt="Pie chart showing screen technology types and their frequency" class="graph-img">
+      <img src="pics/1.2.png" alt="Bar chart showing screen technology types and their frequency" class="graph-img">
+    </div>
+
+    <div class="question">
+      <h3>2. What screen sizes are available and which are most frequent?</h3>
+      <p>65-inch is the most common size, followed by 55-inch and 75-inch.</p>
+      <img src="pics/2.png" alt="Bar chart showing screen sizes and their frequency" class="graph-img">
+    </div>
+
+    <div class="question">
+      <h3>3. Which brands have the largest number of models?</h3>
+      <p>KOGAN, LG, and SAMSUNG ELECTRONICS dominate the market with the largest number of models.</p>
+      <img src="pics/3.png" alt="Bar chart showing brand model counts" class="graph-img">
+    </div>
+
+    <div class="question">
+      <h3>4. Which type of screen technology consumes the least amount of power?</h3>
+      <p>LCD TVs consume the least power, while OLED uses slightly more.</p>
+      <img src="pics/4.png" alt="Bar chart showing power consumption by screen technology" class="graph-img">
+    </div>
+
+    <div class="question">
+      <h3>5. What is the relationship between screen size and power use?</h3>
+      <p>Larger TVs use more power.</p>
+      <img src="pics/5.png" alt="Scatter plot showing relationship between screen size and power use" class="graph-img">
+    </div>
+
+    <div class="question">
+      <h3>6. What is the relationship between star rating and screen size?</h3>
+      <p>Star ratings are fairly distributed; bigger TVs can still be efficient.</p>
+      <img src="pics/6.png" alt="Scatter plot showing relationship between star rating and screen size" class="graph-img">
+    </div>
+
+    <div class ="question">
+      <h3> Conclusion </h3>
+      <p> When choosing a TV, balance size, brand, and efficiency. A 55-inch LED TV is common and energy-smart for most households. </p>
+    </div>
+  </section>
+
+  <section id="about" class="page">
+    <h1>About Us</h1>
+    <p><em>You are on: About Us</em></p>
+    <p>This educational website demonstrates basic web development and shares simple pointers on appliance energy consumption in Australia.</p>
+    <p>GenAI tools were used to help draft starter code and placeholder text.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Nicole Jia Xin TAN 104406767 | Built with assistance from GenAI for starter code/content.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
